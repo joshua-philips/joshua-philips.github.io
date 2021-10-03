@@ -1,3 +1,5 @@
+import { HashLink } from 'react-router-hash-link';
+
 const Navbar = () => {
   return (
     <div>
@@ -28,14 +30,14 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="/" className="nav-link">
+                <HashLink smooth to="/#about" className="nav-link">
                   Bio
-                </a>
+                </HashLink>
               </li>
               <li className="nav-item">
-                <a href="/" className="nav-link">
+                <HashLink smooth to="/#skills" className="nav-link">
                   Skills
-                </a>
+                </HashLink>
               </li>
               <li className="nav-item">
                 <a href="/" className="nav-link">
