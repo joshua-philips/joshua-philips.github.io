@@ -1,8 +1,64 @@
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('resources/athul-cyriac-ajay.png') no-repeat center center fixed;
+    url('resources/img/athul-cyriac-ajay.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+#showcase::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+.prev-open {
+  position: relative;
+}
+
+.prev-open:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.skills-icon {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+}
+
+#skills .row .card {
+  border-radius: 0;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+@media (max-width: 400px) {
+  .section-header {
+    font-size: smaller;
+  }
+
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
 }
