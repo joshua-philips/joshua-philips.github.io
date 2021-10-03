@@ -1,4 +1,5 @@
 import About from '../components/About';
+import Contact from '../components/Contact';
 import Showcase from '../components/Showcase';
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
       <Showcase></Showcase>
       <About></About>
+      <Contact></Contact>
     </div>
   );
 };

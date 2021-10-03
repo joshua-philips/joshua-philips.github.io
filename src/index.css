@@ -7,6 +7,12 @@ body {
   -o-background-size: cover;
 }
 
+.content::before {
+  display: block;
+  content: '';
+  height: 80px;
+}
+
 #showcase::before {
   display: block;
   content: '';
