@@ -63,7 +63,7 @@ const Navbar = () => {
       <div
         className="modal fade"
         id="contactModal"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="contactModalLabel"
         aria-hidden="true"
       >
@@ -85,7 +85,7 @@ const Navbar = () => {
             <div className="modal-body">
               <form id="form-modal">
                 <div className="mb-3">
-                  <label for="email-modal" className="col-form-label">
+                  <label htmlFor="email-modal" className="col-form-label">
                     Email
                   </label>
                   <input
@@ -96,7 +96,7 @@ const Navbar = () => {
                   />
                 </div>
                 <div className="mb-3">
-                  <label for="subject-modal" className="form-label">
+                  <label htmlFor="subject-modal" className="form-label">
                     Subject
                   </label>
                   <input
@@ -108,7 +108,7 @@ const Navbar = () => {
                   />
                 </div>
                 <div className="mb-3">
-                  <label for="message-modal" className="col-form-label">
+                  <label htmlFor="message-modal" className="col-form-label">
                     Message
                   </label>
                   <textarea

@@ -2,44 +2,44 @@ import aboutText from '../data/aboutText';
 
 const About = () => {
   return (
-    <section class="bg-black bg-opacity-50 text-light py-5" id="about">
-      <div class="container">
-        <div class="card bg-black p-5 bg-opacity-75">
-          <div class="card-title">
-            <h3 class="mb-3 mb-md-0 pb-3">
-              <span class="border-bottom border-warning pb-2 section-header">
+    <section className="bg-black bg-opacity-50 text-light py-5" id="about">
+      <div className="container">
+        <div className="card bg-black p-5 bg-opacity-75">
+          <div className="card-title">
+            <h3 className="mb-3 mb-md-0 pb-3">
+              <span className="border-bottom border-warning pb-2 section-header">
                 ABOUT
               </span>
             </h3>
           </div>
-          <div class="card-text">
-            <div class="row g4">
-              <div class="col-md">
+          <div className="card-text">
+            <div className="row g4">
+              <div className="col-md">
                 <p>{aboutText[0]}</p>
-                <p class="d-none d-md-block">{aboutText[1]}</p>
+                <p className="d-none d-md-block">{aboutText[1]}</p>
                 <p>{aboutText[2]}</p>
-                <p class="d-none d-md-block">{aboutText[3]}</p>
+                <p className="d-none d-md-block">{aboutText[3]}</p>
               </div>
-              <div class="col-md">
-                <ul class="list-group list-group-flush list-unstyled">
-                  <li class="list-group-item bg-black bg-transparent text-light">
-                    <i class="bi-chevron-right"></i>
-                    <span class="fw-bold">Email: </span>
+              <div className="col-md">
+                <ul className="list-group list-group-flush list-unstyled">
+                  <li className="list-group-item bg-black bg-transparent text-light">
+                    <i className="bi-chevron-right"></i>
+                    <span className="fw-bold">Email: </span>
                     philipsjoshua96@gmail.com
                   </li>
-                  <li class="list-group-item bg-black bg-transparent text-light">
-                    <i class="bi-chevron-right"></i>
-                    <span class="fw-bold">Phone: </span>+233 559059563
+                  <li className="list-group-item bg-black bg-transparent text-light">
+                    <i className="bi-chevron-right"></i>
+                    <span className="fw-bold">Phone: </span>+233 559059563
                   </li>
-                  <li class="list-group-item bg-black bg-transparent text-light">
-                    <i class="bi-chevron-right"></i>
-                    <span class="fw-bold">Location: </span>Accra, Ghana
+                  <li className="list-group-item bg-black bg-transparent text-light">
+                    <i className="bi-chevron-right"></i>
+                    <span className="fw-bold">Location: </span>Accra, Ghana
                   </li>
-                  <li class="list-group-item bg-black bg-transparent text-light">
-                    <i class="bi-chevron-right"></i>
-                    <span class="fw-bold">Senior High School: </span>
+                  <li className="list-group-item bg-black bg-transparent text-light">
+                    <i className="bi-chevron-right"></i>
+                    <span className="fw-bold">Senior High School: </span>
                     <a
-                      class="link-warning no-underline"
+                      className="link-warning no-underline"
                       href="https://www.adisadelcollege.net/home.html"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -47,11 +47,11 @@ const About = () => {
                       Adisadel College
                     </a>
                   </li>
-                  <li class="list-group-item bg-black bg-transparent text-light">
-                    <i class="bi-chevron-right"></i>
-                    <span class="fw-bold">University: </span>
+                  <li className="list-group-item bg-black bg-transparent text-light">
+                    <i className="bi-chevron-right"></i>
+                    <span className="fw-bold">University: </span>
                     <a
-                      class="link-warning no-underline"
+                      className="link-warning no-underline"
                       href="https://site.gctu.edu.gh/"
                       target="_blank"
                       rel="noopener noreferrer"
