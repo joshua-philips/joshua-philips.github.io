@@ -10,7 +10,7 @@ body {
 .content::before {
   display: block;
   content: '';
-  height: 80px;
+  height: 60px;
 }
 
 #showcase::before {

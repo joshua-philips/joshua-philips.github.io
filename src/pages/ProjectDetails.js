@@ -4,7 +4,7 @@ import projects from '../data/projects';
 const ProjectDetails = () => {
   const { id } = useParams();
   return (
-    <div className="content">
+    <div className="content container">
       <h1 className="text-warning">{projects[id].title}</h1>
     </div>
   );

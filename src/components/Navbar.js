@@ -26,9 +26,9 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navmenu">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a href="/" className="nav-link">
+                <Link to="/" className="nav-link">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <HashLink smooth to="/#about" className="nav-link">

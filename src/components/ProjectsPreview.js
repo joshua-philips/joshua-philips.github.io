@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import projects from '../data/projects';
 import ProjectCard from './ProjectCard';
 
@@ -23,6 +24,11 @@ const ProjectsPreview = () => {
             <div class="col-md">
               <ProjectCard project={projects.chini}></ProjectCard>
             </div>
+          </div>
+          <div class="card-footer mt-5">
+            <Link to="/projects" class="no-underline h4 link-warning">
+              See More Projects
+            </Link>
           </div>
         </div>
       </div>
