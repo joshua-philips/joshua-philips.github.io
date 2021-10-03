@@ -1,3 +1,5 @@
+// import projects from '../data/projects';
+
 const Projects = () => {
   return (
     <div className="content">
