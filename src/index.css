@@ -46,6 +46,10 @@ body {
   object-fit: contain;
 }
 
+.skills-icon-fa {
+  font-size: 40px;
+}
+
 #skills .row .card {
   border-radius: 0;
 }
@@ -53,7 +57,7 @@ body {
 .no-underline {
   text-decoration: none;
 }
-.card-img-top {
+.project-card-img {
   height: 300px;
   object-fit: cover;
 }
@@ -63,7 +67,7 @@ body {
     font-size: smaller;
   }
 
-  .card-img-top {
+  .project-card-img {
     height: 200px;
     object-fit: cover;
   }

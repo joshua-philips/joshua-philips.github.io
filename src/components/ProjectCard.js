@@ -1,11 +1,14 @@
 import { Link } from 'react-router-dom';
-import behanceLogo from '../resources/icons/behance.svg';
 
 const ProjectCard = ({ project }) => {
   return (
     <div className="card bg-dark bg-opacity-50 text-start">
       <div className="prev-open">
-        <img src={project.thumbnail} className="card-img-top" alt="..." />
+        <img
+          src={project.thumbnail}
+          className="card-img-top project-card-img"
+          alt="..."
+        />
       </div>
       <div className="card-body">
         <h5 className="card-title">{project.title}</h5>
@@ -20,15 +23,9 @@ const ProjectCard = ({ project }) => {
                 href={project.links.behance}
                 target="_blank"
                 rel="noopener noreferrer"
+                className="mx-2"
               >
-                <div className="prev-open">
-                  <img
-                    src={behanceLogo}
-                    className="mx-2 h3"
-                    style={{ height: '35px', width: '25px' }}
-                    alt=""
-                  />
-                </div>
+                <i className="fab fa-behance link-light h3"></i>
               </a>
             )}
             {project.links.github && (
