@@ -22,7 +22,7 @@ const ProjectsPreview = () => {
               <ProjectCard project={projects.yaresa}></ProjectCard>
             </div>
             <div className="col-md">
-              <ProjectCard project={projects.chini}></ProjectCard>
+              <ProjectCard project={projects.cediBudget}></ProjectCard>
             </div>
           </div>
           <div className="card-footer mt-5">

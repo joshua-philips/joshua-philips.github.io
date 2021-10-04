@@ -3,21 +3,23 @@ import { Link } from 'react-router-dom';
 const ProjectCard = ({ project }) => {
   return (
     <div className="card bg-dark bg-opacity-50 text-start">
-      <div className="prev-open">
-        <img
-          src={project.thumbnail}
-          className="card-img-top project-card-img"
-          alt="..."
-        />
-      </div>
+      {project.thumbnail && (
+        <div className="prev-open">
+          <img
+            src={project.thumbnail}
+            className="card-img-top project-card-img"
+            alt="..."
+          />
+        </div>
+      )}
       <div className="card-body">
         <h5 className="card-title">{project.title}</h5>
-        <p className="card-text">{project.preview}</p>
+        {project.preview && <p className="card-text">{project.preview}</p>}
         <div className="d-flex align-items-center justify-content-between">
           <Link to={'/projects/' + project.id} className="btn btn-warning">
             Read More
           </Link>
-          <div>
+          <div className="ms-3">
             {project.links.behance && (
               <a
                 href={project.links.behance}

@@ -1,6 +1,7 @@
 import readLogThumbnail from '../resources/readlog/readlog_thumbnail.png';
 import yaresaThumbnail from '../resources/yaresa/yaresa_mockup.png';
 import chiniThumbnail from '../resources/chini/chini_illustration.png';
+import cediThumbnail from '../resources/cedi/launch_screen.jpg';
 const projects = {
   readLog: {
     id: 'readLog',
@@ -45,6 +46,20 @@ const projects = {
     title: 'Cover Image Illustration',
     thumbnail: chiniThumbnail,
     preview: "Illustration for musician's cover image.",
+    links: { github: '', behance: '', live: '' },
+    images: {},
+    paragraphs: [
+      {
+        title: '',
+        text: '',
+      },
+    ],
+  },
+  cediBudget: {
+    id: 'cediBudget',
+    title: 'Cedi Budget Mobile App',
+    thumbnail: cediThumbnail,
+    preview: '',
     links: { github: '', behance: '', live: '' },
     images: {},
     paragraphs: [

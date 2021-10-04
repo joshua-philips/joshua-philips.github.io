@@ -16,6 +16,9 @@ const Projects = () => {
             <ProjectCard project={projects.readLog}></ProjectCard>
           </div>
           <div className="mb-5">
+            <ProjectCard project={projects.cediBudget}></ProjectCard>
+          </div>
+          <div className="mb-5">
             <ProjectCard project={projects.chini}></ProjectCard>
           </div>
         </div>
