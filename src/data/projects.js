@@ -1,7 +1,7 @@
 import readLogThumbnail from '../resources/readlog/readlog_thumbnail.png';
 import yaresaThumbnail from '../resources/yaresa/yaresa_mockup.png';
 import chiniThumbnail from '../resources/chini/chini_illustration.png';
-import cediThumbnail from '../resources/cedi/launch_screen.jpg';
+import cediThumbnail from '../resources/cedi/launch_screen.png';
 const projects = {
   readLog: {
     id: 'readLog',
@@ -59,7 +59,7 @@ const projects = {
     id: 'cediBudget',
     title: 'Cedi Budget Mobile App',
     thumbnail: cediThumbnail,
-    preview: '',
+    preview: 'Flutter mobile app for planning a budget based on set dates',
     links: { github: '', behance: '', live: '' },
     images: {},
     paragraphs: [
