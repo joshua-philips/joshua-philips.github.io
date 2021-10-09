@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.88a2b979.chunk.css",
+    "main.js": "/static/js/main.9b6566ac.chunk.js",
+    "main.js.map": "/static/js/main.9b6566ac.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.57279e11.js",
+    "runtime-main.js.map": "/static/js/runtime-main.57279e11.js.map",
+    "static/css/2.f2512455.chunk.css": "/static/css/2.f2512455.chunk.css",
+    "static/js/2.38c6bf66.chunk.js": "/static/js/2.38c6bf66.chunk.js",
+    "static/js/2.38c6bf66.chunk.js.map": "/static/js/2.38c6bf66.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.88a2b979.chunk.css.map": "/static/css/main.88a2b979.chunk.css.map",
+    "static/js/2.38c6bf66.chunk.js.LICENSE.txt": "/static/js/2.38c6bf66.chunk.js.LICENSE.txt",
+    "static/media/adobe-photoshop.13f606be.svg": "/static/media/adobe-photoshop.13f606be.svg",
+    "static/media/adobe-xd.996364f5.svg": "/static/media/adobe-xd.996364f5.svg",
+    "static/media/behance.9b41a0ef.svg": "/static/media/behance.9b41a0ef.svg",
+    "static/media/chini_illustration.a55ac968.png": "/static/media/chini_illustration.a55ac968.png",
+    "static/media/css3.6b6f52e7.svg": "/static/media/css3.6b6f52e7.svg",
+    "static/media/dart.ab7b6180.png": "/static/media/dart.ab7b6180.png",
+    "static/media/firebase.6b405206.png": "/static/media/firebase.6b405206.png",
+    "static/media/flutter.a454926d.svg": "/static/media/flutter.a454926d.svg",
+    "static/media/git.2231ab47.svg": "/static/media/git.2231ab47.svg",
+    "static/media/html5.2b2e078a.svg": "/static/media/html5.2b2e078a.svg",
+    "static/media/java.38de3186.svg": "/static/media/java.38de3186.svg",
+    "static/media/javascript.43e744a2.svg": "/static/media/javascript.43e744a2.svg",
+    "static/media/joshua-philips-resume.2478b2a6.pdf": "/static/media/joshua-philips-resume.2478b2a6.pdf",
+    "static/media/launch_screen.56be49f9.png": "/static/media/launch_screen.56be49f9.png",
+    "static/media/mysql.7618eff6.svg": "/static/media/mysql.7618eff6.svg",
+    "static/media/profile_pic.2a864f09.jpg": "/static/media/profile_pic.2a864f09.jpg",
+    "static/media/readlog_thumbnail.145d821c.png": "/static/media/readlog_thumbnail.145d821c.png",
+    "static/media/vscode.3369422d.svg": "/static/media/vscode.3369422d.svg",
+    "static/media/yaresa_mockup.6dff0777.png": "/static/media/yaresa_mockup.6dff0777.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57279e11.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.38c6bf66.chunk.js",
+    "static/css/main.88a2b979.chunk.css",
+    "static/js/main.9b6566ac.chunk.js"
+  ]
+}
