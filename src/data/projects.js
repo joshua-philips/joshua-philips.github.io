@@ -2,27 +2,8 @@ import readLogThumbnail from '../resources/readlog/readlog_thumbnail.png';
 import yaresaThumbnail from '../resources/yaresa/yaresa_mockup.png';
 import chiniThumbnail from '../resources/chini/chini_illustration.png';
 import cediThumbnail from '../resources/cedi/launch_screen.png';
-const projects = {
-  readLog: {
-    id: 'readLog',
-    title: 'Book Tracking Mobile App',
-    thumbnail: readLogThumbnail,
-    preview:
-      "An IOS and Android app developed using Flutter to track a user's books and reading list.",
-    links: {
-      github: 'https://github.com/joshua-philips/read_log',
-      behance: 'https://www.behance.net/gallery/125791007/Book-Logging-App',
-      live: '',
-    },
-    images: {},
-    paragraphs: [
-      {
-        title: '',
-        text: '',
-      },
-    ],
-  },
-  yaresa: {
+const projects = [
+  {
     id: 'yaresa',
     title: 'Yaresa Healthcare UI/UX',
     thumbnail: yaresaThumbnail,
@@ -33,21 +14,79 @@ const projects = {
       behance: 'https://www.behance.net/gallery/125514203/Healthcare-App',
       live: '',
     },
-    images: {},
+    image: '',
     paragraphs: [
       {
-        title: '',
-        text: '',
+        title: 'Overview',
+        text: 'I was approached to create design a user interface for the Yaresa Healthcare app, an app to connect doctors, clinics and patients.',
+      },
+      {
+        title: 'Design',
+        text: 'A logo was already provided. I was responsible for designing the screens of the app. The goal for the design was to keep inline with current iOS and Android trends while considering the target audience. Ultimately another desing was used for the app, but I learnt a lot of new things during my research for the app.',
       },
     ],
   },
-  chini: {
+  {
+    id: 'readLog',
+    title: 'Book Tracking Mobile App',
+    thumbnail: readLogThumbnail,
+    preview:
+      "An IOS and Android app developed using Flutter to track a user's books and reading list.",
+    links: {
+      github: 'https://github.com/joshua-philips/read_log',
+      behance: 'https://www.behance.net/gallery/125791007/Book-Logging-App',
+      live: '',
+    },
+    image: '',
+    paragraphs: [
+      {
+        title: 'Overview',
+        text: 'Readlog is a mobile app(both iOS and Android) that allows a user to keep track of their books.',
+      },
+      {
+        title: 'Design',
+        text: 'The design of the app is meant to be simple, allowing a larger focus on its functionality more than anything. Users can sign in, track their reading lists, books read and manage their profile.',
+      },
+      {
+        title: 'Development',
+        text: 'The app was developed using Flutter with a Firebase Firestore database. Book data is retreived from the OpenLibrary api.',
+      },
+    ],
+  },
+
+  {
+    id: 'cediBudget',
+    title: 'Cedi Budget Mobile App',
+    thumbnail: cediThumbnail,
+    preview: 'Flutter mobile app for planning a budget based on set dates',
+    links: {
+      github: 'https://github.com/joshua-philips/Cedi-Budget',
+      behance: '',
+      live: '',
+    },
+    image: '',
+    paragraphs: [
+      {
+        title: 'Overview',
+        text: 'Cedi Budget is a mobile app for planning a budget within a timeframe.',
+      },
+      {
+        title: 'Design',
+        text: 'A simple user interface with charts for keeping track of budget and expenditure.',
+      },
+      {
+        title: 'Development',
+        text: 'Developed with Flutter with a Firebase backend (Cloud Firestore, Firebase Messaging).',
+      },
+    ],
+  },
+  {
     id: 'chini',
     title: 'Cover Image Illustration',
     thumbnail: chiniThumbnail,
     preview: "Illustration for musician's cover image.",
     links: { github: '', behance: '', live: '' },
-    images: {},
+    image: chiniThumbnail,
     paragraphs: [
       {
         title: '',
@@ -55,20 +94,6 @@ const projects = {
       },
     ],
   },
-  cediBudget: {
-    id: 'cediBudget',
-    title: 'Cedi Budget Mobile App',
-    thumbnail: cediThumbnail,
-    preview: 'Flutter mobile app for planning a budget based on set dates',
-    links: { github: '', behance: '', live: '' },
-    images: {},
-    paragraphs: [
-      {
-        title: '',
-        text: '',
-      },
-    ],
-  },
-};
+];
 
 export default projects;

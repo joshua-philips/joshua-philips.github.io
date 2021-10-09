@@ -1,12 +1,16 @@
-body {
+/* body {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url('resources/img/athul-cyriac-ajay.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-}
+} */
 
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background-color: rgb(61, 61, 61);
+}
 .content::before {
   display: block;
   content: '';
@@ -58,6 +62,11 @@ body {
   text-decoration: none;
 }
 .project-card-img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.project-details-img {
   height: 300px;
   object-fit: cover;
 }

@@ -16,13 +16,13 @@ const ProjectsPreview = () => {
           </div>
           <div className="row row-cols-md-2 g-4 text-center">
             <div className="col-md">
-              <ProjectCard project={projects.readLog}></ProjectCard>
+              <ProjectCard project={projects[0]}></ProjectCard>
             </div>
             <div className="col-md">
-              <ProjectCard project={projects.yaresa}></ProjectCard>
+              <ProjectCard project={projects[1]}></ProjectCard>
             </div>
             <div className="col-md">
-              <ProjectCard project={projects.cediBudget}></ProjectCard>
+              <ProjectCard project={projects[2]}></ProjectCard>
             </div>
           </div>
           <div className="card-footer mt-5">
