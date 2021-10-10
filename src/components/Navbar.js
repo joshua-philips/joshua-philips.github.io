@@ -26,7 +26,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navmenu">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <HashLink to="/#top" className="nav-link">
+                <HashLink to="/#" className="nav-link">
                   Home
                 </HashLink>
               </li>

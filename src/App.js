@@ -4,10 +4,12 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import ProjectDetails from './pages/ProjectDetails';
 import Contact from './components/Contact';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop></ScrollToTop>
       <Navbar />
       <Switch>
         <Route exact path="/">
