@@ -23,6 +23,10 @@ body {
   height: 60px;
 }
 
+.showcase-icon-bi {
+  font-size: 30px;
+}
+
 .prev-open {
   position: relative;
 }

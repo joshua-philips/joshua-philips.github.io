@@ -25,7 +25,7 @@ const Showcase = () => {
                   rel="noopener noreferrer"
                   className="btn btn-dark rounded-circle m-2 ms-0"
                 >
-                  <i className="bi-github h3"></i>
+                  <i className="bi-github h3 showcase-icon-bi"></i>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/joshua-senyi-philips-b0a696186/"
@@ -33,7 +33,7 @@ const Showcase = () => {
                   rel="noopener noreferrer"
                   className="btn btn-dark rounded-circle m-2"
                 >
-                  <i className="bi-linkedin h3"></i>
+                  <i className="bi-linkedin h3 showcase-icon-bi"></i>
                 </a>
                 <a
                   href="https://twitter.com/JphilipsGh"
@@ -41,7 +41,7 @@ const Showcase = () => {
                   rel="noopener noreferrer"
                   className="btn btn-dark rounded-circle m-2"
                 >
-                  <i className="bi-twitter h3"></i>
+                  <i className="bi-twitter h3 showcase-icon-bi"></i>
                 </a>
                 <a
                   href="https://facebook.com/philipsjoshua"
@@ -49,7 +49,7 @@ const Showcase = () => {
                   rel="noopener noreferrer"
                   className="btn btn-dark rounded-circle m-2"
                 >
-                  <i className="bi-facebook h3"></i>
+                  <i className="bi-facebook h3 showcase-icon-bi"></i>
                 </a>
 
                 <a
