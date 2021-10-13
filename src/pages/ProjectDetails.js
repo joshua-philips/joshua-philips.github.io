@@ -12,13 +12,6 @@ const ProjectDetails = () => {
             {project.title && (
               <h1 className="text-warning pb-3 px-2">{project.title}</h1>
             )}
-            {project.image && (
-              <img
-                src={project.image}
-                alt="..."
-                className="img-fluid project-details-img"
-              />
-            )}
             <div className="card-body text-light">
               {project.paragraphs &&
                 project.paragraphs.map((paragraph) => (
@@ -28,6 +21,11 @@ const ProjectDetails = () => {
                   </div>
                 ))}
               <div className="">
+                {(project.links.behance ||
+                  project.links.github ||
+                  project.links.live) && (
+                  <h5 className="card-title">External Links</h5>
+                )}
                 {project.links.behance && (
                   <a
                     href={project.links.behance}
@@ -61,6 +59,13 @@ const ProjectDetails = () => {
                 )}
               </div>
             </div>
+            {project.image && (
+              <img
+                src={project.image}
+                alt="..."
+                className="img-fluid project-details-img mt-2"
+              />
+            )}
           </div>
         </div>
       </section>

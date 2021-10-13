@@ -2,6 +2,8 @@ import readLogThumbnail from '../resources/readlog/readlog_thumbnail.png';
 import yaresaThumbnail from '../resources/yaresa/yaresa_mockup.png';
 import chiniThumbnail from '../resources/chini/chini_illustration.png';
 import cediThumbnail from '../resources/cedi/launch_screen.png';
+import yaresaMck from '../resources/yaresa/yarisa-mck.png';
+import readlogMck from '../resources/readlog/readlog-mck.png';
 const projects = [
   {
     id: 'yaresa',
@@ -14,7 +16,7 @@ const projects = [
       behance: 'https://www.behance.net/gallery/125514203/Healthcare-App',
       live: '',
     },
-    image: '',
+    image: yaresaMck,
     paragraphs: [
       {
         title: 'Overview',
@@ -37,7 +39,7 @@ const projects = [
       behance: 'https://www.behance.net/gallery/125791007/Book-Logging-App',
       live: '',
     },
-    image: '',
+    image: readlogMck,
     paragraphs: [
       {
         title: 'Overview',
@@ -89,8 +91,8 @@ const projects = [
     image: chiniThumbnail,
     paragraphs: [
       {
-        title: '',
-        text: '',
+        title: 'Overview',
+        text: 'Simple illustration using Adobe Photoshop',
       },
     ],
   },
