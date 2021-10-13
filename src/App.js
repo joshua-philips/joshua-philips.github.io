@@ -5,6 +5,7 @@ import Projects from './pages/Projects';
 import ProjectDetails from './pages/ProjectDetails';
 import Contact from './components/Contact';
 import ScrollToTop from './components/ScrollToTop';
+import NotFoundPage from './pages/NotFound';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route path="/projects/:id">
           <ProjectDetails></ProjectDetails>
+        </Route>
+        <Route path="*">
+          <NotFoundPage></NotFoundPage>
         </Route>
       </Switch>
       <Contact></Contact>

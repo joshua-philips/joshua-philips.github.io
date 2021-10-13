@@ -22,7 +22,7 @@ const projects = [
       },
       {
         title: 'Design',
-        text: 'A logo was already provided. I was responsible for designing the screens of the app. The goal for the design was to keep inline with current iOS and Android trends while considering the target audience. Ultimately another desing was used for the app, but I learnt a lot of new things during my research for the app.',
+        text: 'A logo was already provided. I was responsible for designing the screens of the app. The goal for the design was to keep in line with current iOS and Android trends while considering the target audience. Ultimately another design was used for the app, but I learnt a lot of new things during my research for the app.',
       },
     ],
   },

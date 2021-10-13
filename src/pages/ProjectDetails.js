@@ -3,7 +3,7 @@ import projects from '../data/projects';
 
 const ProjectDetails = () => {
   const { id } = useParams();
-  let project = projects.find((project) => project.id === id);
+  let project = projects.find((project) => project.id === id) ?? projects[0];
   return (
     <div>
       <section className="bg-black bg-opacity-50 pt-5 pb-5">
