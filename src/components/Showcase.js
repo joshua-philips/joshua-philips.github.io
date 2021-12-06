@@ -9,7 +9,7 @@ const Showcase = () => {
         id="showcase"
       >
         <div className="container">
-          <div className="card bg-transparent">
+          <div className="card bg-transparent border-0">
             <div className="d-sm-flex align-items-center justify-content-evenly">
               <div>
                 <h1>
