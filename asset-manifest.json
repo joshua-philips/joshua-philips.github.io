@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.e27ff311.chunk.css",
-    "main.js": "/static/js/main.51b6329d.chunk.js",
-    "main.js.map": "/static/js/main.51b6329d.chunk.js.map",
+    "main.css": "/static/css/main.6dc459e9.chunk.css",
+    "main.js": "/static/js/main.c3c5f51c.chunk.js",
+    "main.js.map": "/static/js/main.c3c5f51c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.57279e11.js",
     "runtime-main.js.map": "/static/js/runtime-main.57279e11.js.map",
     "static/css/2.f2512455.chunk.css": "/static/css/2.f2512455.chunk.css",
@@ -10,12 +10,12 @@
     "static/js/2.76dad0d3.chunk.js.map": "/static/js/2.76dad0d3.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.f2512455.chunk.css.map": "/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.e27ff311.chunk.css.map": "/static/css/main.e27ff311.chunk.css.map",
+    "static/css/main.6dc459e9.chunk.css.map": "/static/css/main.6dc459e9.chunk.css.map",
     "static/js/2.76dad0d3.chunk.js.LICENSE.txt": "/static/js/2.76dad0d3.chunk.js.LICENSE.txt",
     "static/media/adobe-photoshop.13f606be.svg": "/static/media/adobe-photoshop.13f606be.svg",
     "static/media/adobe-xd.996364f5.svg": "/static/media/adobe-xd.996364f5.svg",
+    "static/media/index.css": "/static/media/athul-cyriac-ajay.8f6e27a8.png",
     "static/media/behance.9b41a0ef.svg": "/static/media/behance.9b41a0ef.svg",
-    "static/media/chini_illustration.a55ac968.png": "/static/media/chini_illustration.a55ac968.png",
     "static/media/css3.6b6f52e7.svg": "/static/media/css3.6b6f52e7.svg",
     "static/media/dart.ab7b6180.png": "/static/media/dart.ab7b6180.png",
     "static/media/firebase.6b405206.png": "/static/media/firebase.6b405206.png",
@@ -24,7 +24,7 @@
     "static/media/html5.2b2e078a.svg": "/static/media/html5.2b2e078a.svg",
     "static/media/java.38de3186.svg": "/static/media/java.38de3186.svg",
     "static/media/javascript.43e744a2.svg": "/static/media/javascript.43e744a2.svg",
-    "static/media/joshua-philips-resume.453a92d6.pdf": "/static/media/joshua-philips-resume.453a92d6.pdf",
+    "static/media/joshua-philips-resume.4bfd9c02.pdf": "/static/media/joshua-philips-resume.4bfd9c02.pdf",
     "static/media/launch_screen.56be49f9.png": "/static/media/launch_screen.56be49f9.png",
     "static/media/mysql.7618eff6.svg": "/static/media/mysql.7618eff6.svg",
     "static/media/profile_pic.2a864f09.jpg": "/static/media/profile_pic.2a864f09.jpg",
@@ -38,7 +38,7 @@
     "static/js/runtime-main.57279e11.js",
     "static/css/2.f2512455.chunk.css",
     "static/js/2.76dad0d3.chunk.js",
-    "static/css/main.e27ff311.chunk.css",
-    "static/js/main.51b6329d.chunk.js"
+    "static/css/main.6dc459e9.chunk.css",
+    "static/js/main.c3c5f51c.chunk.js"
   ]
 }
