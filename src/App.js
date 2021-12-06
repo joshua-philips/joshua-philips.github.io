@@ -11,6 +11,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop></ScrollToTop>
+      <div id="background"></div>
       <Navbar />
       <Switch>
         <Route exact path="/">

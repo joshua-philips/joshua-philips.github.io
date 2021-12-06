@@ -1,6 +1,6 @@
 import readLogThumbnail from '../resources/readlog/readlog_thumbnail.png';
 import yaresaThumbnail from '../resources/yaresa/yaresa_mockup.png';
-import chiniThumbnail from '../resources/chini/chini_illustration.png';
+// import chiniThumbnail from '../resources/chini/chini_illustration.png';
 import cediThumbnail from '../resources/cedi/launch_screen.png';
 import yaresaMck from '../resources/yaresa/yarisa-mck.png';
 import readlogMck from '../resources/readlog/readlog-mck.png';
@@ -82,20 +82,20 @@ const projects = [
       },
     ],
   },
-  {
-    id: 'chini',
-    title: 'Cover Image Illustration',
-    thumbnail: chiniThumbnail,
-    preview: "Illustration for musician's cover image.",
-    links: { github: '', behance: '', live: '' },
-    image: chiniThumbnail,
-    paragraphs: [
-      {
-        title: 'Overview',
-        text: 'Simple illustration using Adobe Photoshop',
-      },
-    ],
-  },
+  // {
+  //   id: 'chini',
+  //   title: 'Cover Image Illustration',
+  //   thumbnail: chiniThumbnail,
+  //   preview: "Illustration for musician's cover image.",
+  //   links: { github: '', behance: '', live: '' },
+  //   image: chiniThumbnail,
+  //   paragraphs: [
+  //     {
+  //       title: 'Overview',
+  //       text: 'Simple illustration using Adobe Photoshop',
+  //     },
+  //   ],
+  // },
 ];
 
 export default projects;
