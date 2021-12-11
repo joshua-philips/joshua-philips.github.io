@@ -36,7 +36,7 @@ const projects = [
       "An IOS and Android app developed using Flutter to track a user's books and reading list.",
     links: {
       github: 'https://github.com/joshua-philips/read_log',
-      behance: 'https://www.behance.net/gallery/125791007/Book-Logging-App',
+      behance: 'https://www.behance.net/gallery/125791007/Read-Log-App',
       live: '',
     },
     image: readlogMck,
