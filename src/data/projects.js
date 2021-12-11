@@ -6,8 +6,8 @@ import yaresaMck from '../resources/yaresa/yarisa-mck.png';
 import readlogMck from '../resources/readlog/readlog-mck.png';
 const projects = [
   {
-    id: 'yaresa',
-    title: 'Yaresa Healthcare UI/UX',
+    id: 'yarisa',
+    title: 'Yarisa Healthcare UI/UX',
     thumbnail: yaresaThumbnail,
     preview:
       'Design for a mobile healthcare application to connect doctors and patients',
@@ -30,7 +30,7 @@ const projects = [
   },
   {
     id: 'readLog',
-    title: 'Book Tracking Mobile App',
+    title: 'Read Log Mobile App',
     thumbnail: readLogThumbnail,
     preview:
       "An IOS and Android app developed using Flutter to track a user's books and reading list.",
@@ -43,7 +43,7 @@ const projects = [
     paragraphs: [
       {
         title: 'Overview',
-        text: 'Readlog is a mobile app(both iOS and Android) that allows a user to keep track of their books.',
+        text: 'Read Log is a mobile app(both iOS and Android) that allows a user to keep track of their books.',
       },
       {
         title: 'Design',
@@ -82,20 +82,20 @@ const projects = [
       },
     ],
   },
-  // {
-  //   id: 'chini',
-  //   title: 'Cover Image Illustration',
-  //   thumbnail: chiniThumbnail,
-  //   preview: "Illustration for musician's cover image.",
-  //   links: { github: '', behance: '', live: '' },
-  //   image: chiniThumbnail,
-  //   paragraphs: [
-  //     {
-  //       title: 'Overview',
-  //       text: 'Simple illustration using Adobe Photoshop',
-  //     },
-  //   ],
-  // },
+  /* {
+    id: 'chini',
+    title: 'Cover Image Illustration',
+    thumbnail: chiniThumbnail,
+    preview: "Illustration for musician's cover image.",
+    links: { github: '', behance: '', live: '' },
+    image: chiniThumbnail,
+    paragraphs: [
+      {
+        title: 'Overview',
+        text: 'Simple illustration using Adobe Photoshop',
+      },
+    ],
+  },*/
 ];
 
 export default projects;
