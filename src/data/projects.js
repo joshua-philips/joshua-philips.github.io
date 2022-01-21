@@ -33,11 +33,11 @@ const projects = [
     title: 'Read Log Mobile App',
     thumbnail: readLogThumbnail,
     preview:
-      "An IOS and Android app developed using Flutter to track a user's books and reading list.",
+      "An Android app developed using Flutter to track a user's books and reading list.",
     links: {
-      github: 'https://github.com/joshua-philips/read_log',
+      github: 'https://github.com/joshua-philips/read_log_updated',
       behance: 'https://www.behance.net/gallery/125791007/Read-Log-App',
-      live: '',
+      live: 'https://appdistribution.firebase.google.com/pub/i/6ee28fc21494a263',
     },
     image: readlogMck,
     paragraphs: [

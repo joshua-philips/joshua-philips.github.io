@@ -19,7 +19,7 @@ const ProjectCard = ({ project }) => {
           <Link to={'/projects/' + project.id} className="btn btn-warning">
             Read More
           </Link>
-          <div className="ms-3">
+          <div className="ms-3 align-items-center justify-content-center">
             {project.links.behance && (
               <a
                 href={project.links.behance}
@@ -38,6 +38,16 @@ const ProjectCard = ({ project }) => {
                 className="mx-2"
               >
                 <i className="bi-github link-light h3"></i>
+              </a>
+            )}
+            {project.links.live && (
+              <a
+                href={project.links.live}
+                target="_blank"
+                rel="noreferrer"
+                className="mx-2"
+              >
+                <i className="bi-globe link-light h3"></i>
               </a>
             )}
           </div>

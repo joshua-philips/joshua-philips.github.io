@@ -54,7 +54,7 @@ const ProjectDetails = () => {
                     rel="noreferrer"
                     className="me-3 btn btn-dark"
                   >
-                    Live Project
+                    Live/Test Project
                   </a>
                 )}
               </div>
