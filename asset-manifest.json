@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.6dc459e9.chunk.css",
-    "main.js": "/static/js/main.f52f58c4.chunk.js",
-    "main.js.map": "/static/js/main.f52f58c4.chunk.js.map",
+    "main.js": "/static/js/main.db5e0cb1.chunk.js",
+    "main.js.map": "/static/js/main.db5e0cb1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.57279e11.js",
     "runtime-main.js.map": "/static/js/runtime-main.57279e11.js.map",
     "static/css/2.f2512455.chunk.css": "/static/css/2.f2512455.chunk.css",
@@ -30,6 +30,7 @@
     "static/media/profile_pic.2a864f09.jpg": "/static/media/profile_pic.2a864f09.jpg",
     "static/media/readlog-mck.cfdb87b6.png": "/static/media/readlog-mck.cfdb87b6.png",
     "static/media/readlog_thumbnail.b6396138.png": "/static/media/readlog_thumbnail.b6396138.png",
+    "static/media/spring-boot.94f201ce.png": "/static/media/spring-boot.94f201ce.png",
     "static/media/vscode.3369422d.svg": "/static/media/vscode.3369422d.svg",
     "static/media/yaresa_mockup.6dff0777.png": "/static/media/yaresa_mockup.6dff0777.png",
     "static/media/yarisa-mck.ed672975.png": "/static/media/yarisa-mck.ed672975.png"
@@ -39,6 +40,6 @@
     "static/css/2.f2512455.chunk.css",
     "static/js/2.76dad0d3.chunk.js",
     "static/css/main.6dc459e9.chunk.css",
-    "static/js/main.f52f58c4.chunk.js"
+    "static/js/main.db5e0cb1.chunk.js"
   ]
 }
