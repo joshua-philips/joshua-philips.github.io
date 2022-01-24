@@ -43,7 +43,7 @@ const projects = [
     paragraphs: [
       {
         title: 'Overview',
-        text: 'Read Log is a mobile app(both iOS and Android) that allows a user to keep track of their books.',
+        text: 'Read Log is a mobile app that allows a user to keep track of their books.',
       },
       {
         title: 'Design',

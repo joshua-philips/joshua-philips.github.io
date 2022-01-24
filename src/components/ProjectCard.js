@@ -17,7 +17,7 @@ const ProjectCard = ({ project }) => {
         {project.preview && <p className="card-text">{project.preview}</p>}
         <div className="d-flex align-items-center justify-content-between">
           <Link to={'/projects/' + project.id} className="btn btn-warning">
-            Read More
+            More
           </Link>
           <div className="ms-3 align-items-center justify-content-center">
             {project.links.behance && (

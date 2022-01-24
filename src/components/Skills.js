@@ -12,6 +12,7 @@ import mysql from '../resources/icons/mysql.svg';
 import vscode from '../resources/icons/vscode.svg';
 import java from '../resources/icons/java.svg';
 import resume from '../resources/joshua-philips-resume.pdf';
+import springboot from '../resources/icons/spring-boot.png';
 
 const Skills = () => {
   return (
@@ -155,9 +156,9 @@ const Skills = () => {
                 </figure>
               </div>
             </div>
-            <div className="col-md card bg-success bg-opacity-50 py-2 mb-3">
-              <div className="card-title h4 mb-4">Others</div>
-              <div className="row row-cols-3 row-cols-md-5">
+            <div className="col-md card bg-danger bg-opacity-50 py-2 mb-3">
+              <div className="card-title h4 mb-4">Backend Development</div>
+              <div className="row row-cols-3 row-cols-md-5 ">
                 <figure className="figure col">
                   <div className="prev-open">
                     <img
@@ -170,6 +171,23 @@ const Skills = () => {
                     Java
                   </figcaption>
                 </figure>
+                <figure className="figure col">
+                  <div className="prev-open">
+                    <img
+                      src={springboot}
+                      className="figure-img img-fluid rounded skills-icon"
+                      alt="..."
+                    ></img>
+                  </div>
+                  <figcaption className="figure-caption text-light d-none d-sm-block">
+                    Spring Boot
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div className="col-md card bg-success bg-opacity-50 py-2 mb-3">
+              <div className="card-title h4 mb-4">Others</div>
+              <div className="row row-cols-3 row-cols-md-5">
                 <figure className="figure col">
                   <div className="prev-open">
                     <img
@@ -262,7 +280,7 @@ const Skills = () => {
               className="text-light no-underline h6"
               href={resume}
               target="_blank"
-              rel="noopener noreferrer"              
+              rel="noopener noreferrer"
             >
               <h6 className="text-center">
                 <i className="bi-download mx-2"></i>Download Resume
