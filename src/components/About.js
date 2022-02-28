@@ -16,7 +16,7 @@ const About = () => {
             <div>
               <div>
                 <p>{aboutText[0]}</p>
-                <p className="d-none d-md-block">{aboutText[1]}</p>
+                {/* <p className="d-none d-md-block">{aboutText[1]}</p> */}
                 <p>{aboutText[2]}</p>
                 <p className="d-none d-md-block">{aboutText[3]}</p>
               </div>

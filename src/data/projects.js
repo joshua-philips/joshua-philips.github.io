@@ -62,7 +62,7 @@ const projects = [
     thumbnail: cediThumbnail,
     preview: 'Flutter mobile app for planning a budget based on set dates',
     links: {
-      github: 'https://github.com/joshua-philips/Cedi-Budget',
+      github: 'https://github.com/joshua-philips/cedi_budget_update',
       behance: '',
       live: '',
     },
