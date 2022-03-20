@@ -8,11 +8,7 @@ const ProjectsPreview = () => {
       <div className="container">
         <div className="card bg-black p-5 bg-opacity-75">
           <div className="card-title">
-            <h3 className="mb-3 pb-3">
-              <span className="border-bottom border-warning pb-2 section-header">
-                PROJECTS
-              </span>
-            </h3>
+            <h3 className="mb-3 pb-3 section-intro">Projects</h3>
           </div>
           <div className="row row-cols-md-2 g-4 text-center">
             <div className="col-md">

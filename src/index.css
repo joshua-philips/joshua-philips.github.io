@@ -1,3 +1,4 @@
+/* Universal */
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   background-color: rgb(61, 61, 61);
@@ -21,6 +22,30 @@ body {
   height: 60px;
 }
 
+/* Global Utils */
+.prev-open {
+  position: relative;
+}
+
+.prev-open:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.section-intro {
+  font-size: 50px;
+}
+
+/* Showcase */
 #showcase::before {
   display: block;
   content: '';
@@ -38,20 +63,7 @@ body {
   z-index: 3;
 }
 
-.prev-open {
-  position: relative;
-}
-
-.prev-open:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 99;
-}
-
+/* About */
 #profile-pic {
   border-radius: 50%;
   height: 200px;
@@ -60,6 +72,11 @@ body {
   margin: auto;
 }
 
+.about-text {
+  font-size: 25px;
+}
+
+/* Skills */
 .skills-icon {
   height: 40px;
   width: 40px;
@@ -74,9 +91,7 @@ body {
   border-radius: 0;
 }
 
-.no-underline {
-  text-decoration: none;
-}
+/* Projects */
 .project-card-img {
   height: 300px;
   object-fit: cover;
@@ -87,13 +102,6 @@ body {
   object-fit: cover;
 }
 
-.section-intro {
-  font-size: 50px;
-}
-
-.about-text {
-  font-size: 25px;
-}
 @media (max-width: 769px) {
 }
 

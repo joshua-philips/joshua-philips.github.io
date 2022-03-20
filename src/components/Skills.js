@@ -20,10 +20,9 @@ const Skills = () => {
       <div className="container">
         <div className="card bg-black p-5 bg-opacity-75">
           <div className="card-title">
-            <h3 className="mb-3 mb-md-0 pb-3">
-              <span className="border-bottom border-warning pb-2 section-header">
-                SKILLS
-              </span>
+            <h3 className="mb-5 mb-md-0 pb-1 pb-md-5 text-md-center section-intro">
+              Skills &#38; tools
+              <br />I use for my work
             </h3>
           </div>
           <div className="row row-cols-md-2">
@@ -212,7 +211,7 @@ const Skills = () => {
                     JavaFX
                   </figcaption>
                 </figure>
-                <figure className="figure col">
+                {/* <figure className="figure col">
                   <div className="prev-open">
                     <img
                       src="https://junit.org/junit5/assets/img/junit5-logo.png"
@@ -223,7 +222,7 @@ const Skills = () => {
                   <figcaption className="figure-caption text-light d-none d-sm-block">
                     JUnit 5
                   </figcaption>
-                </figure>
+                </figure> */}
                 <figure className="figure col">
                   <div className="prev-open">
                     <img

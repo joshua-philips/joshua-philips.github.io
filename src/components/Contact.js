@@ -7,11 +7,7 @@ const Contact = () => {
       <div className="container">
         <div className="card bg-black p-5 bg-opacity-75">
           <div className="card-title">
-            <h3 className="mb-3 mb-md-0 pb-3">
-              <span className="border-bottom border-warning pb-2 section-header">
-                CONTACT
-              </span>
-            </h3>
+            <h3 className="mb-3 pb-3 section-intro">Contact</h3>
           </div>
           <form id="form-bottom">
             <div className="mb-3">
