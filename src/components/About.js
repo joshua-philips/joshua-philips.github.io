@@ -1,20 +1,30 @@
 import aboutText from '../data/aboutText';
+import profile_pic from '../resources/img/profile_pic.jpg';
 
 const About = () => {
   return (
     <section className="bg-black bg-opacity-50 text-light py-5" id="about">
       <div className="container">
         <div className="card bg-black p-5 bg-opacity-75">
-          <div className="card-title">
-            <h3 className="mb-3 mb-md-0 pb-3">
-              <span className="border-bottom border-warning pb-2 section-header">
-                ABOUT
-              </span>
-            </h3>
-          </div>
+          <div className="card-title"></div>
           <div className="card-text">
+            <div className="prev-open">
+              <img
+                src={profile_pic}
+                alt=""
+                className="img-fluid d-sm-block border mt-4 mt-md-0 my-5"
+                id="profile-pic"
+              />
+            </div>
+            <h3 className="mb-5 mb-md-0 pb-1 pb-md-5 text-md-center section-intro">
+              Hey There! I'm Joshua.
+              <br />A software developer who
+              <br />
+              loves design
+            </h3>
+
             <div>
-              <div>
+              <div className="about-text">
                 <p>{aboutText[0]}</p>
                 {/* <p className="d-none d-md-block">{aboutText[1]}</p> */}
                 <p>{aboutText[2]}</p>

@@ -29,7 +29,7 @@ const projects = [
     ],
   },
   {
-    id: 'readLog',
+    id: 'readlog',
     title: 'Read Log Mobile App',
     thumbnail: readLogThumbnail,
     preview:
@@ -57,7 +57,7 @@ const projects = [
   },
 
   {
-    id: 'cediBudget',
+    id: 'cedibudget',
     title: 'Cedi Budget Mobile App',
     thumbnail: cediThumbnail,
     preview: 'Flutter mobile app for planning a budget based on set dates',
