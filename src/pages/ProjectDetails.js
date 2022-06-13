@@ -16,8 +16,8 @@ const ProjectDetails = () => {
               {project.paragraphs &&
                 project.paragraphs.map((paragraph) => (
                   <div className="pb-5" key={paragraph.title}>
-                    <h5 className="card-title">{paragraph.title}</h5>
-                    <p className="card-text">{paragraph.text}</p>
+                    <h5 className="card-title paragraph-title">{paragraph.title}</h5>
+                    <p className="card-text about-text">{paragraph.text}</p>
                   </div>
                 ))}
               <div className="">

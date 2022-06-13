@@ -20,7 +20,7 @@ const projects = [
     paragraphs: [
       {
         title: 'Overview',
-        text: 'I was approached to create design a user interface for the Yaresa Healthcare app, an app to connect doctors, clinics and patients.',
+        text: 'I was approached to create design a user interface for the Yarisa Healthcare app, an app to connect doctors, clinics and patients.',
       },
       {
         title: 'Design',
@@ -37,7 +37,7 @@ const projects = [
     links: {
       github: 'https://github.com/joshua-philips/read_log_updated',
       behance: 'https://www.behance.net/gallery/125791007/Read-Log-App',
-      live: 'https://appdistribution.firebase.google.com/pub/i/6ee28fc21494a263',
+      // live: 'https://appdistribution.firebase.google.com/pub/i/6ee28fc21494a263',
     },
     image: readlogMck,
     paragraphs: [
@@ -51,7 +51,7 @@ const projects = [
       },
       {
         title: 'Development',
-        text: 'The app was developed using Flutter with a Firebase Firestore database. Book data is retreived from the OpenLibrary api.',
+        text: 'The app was developed using Flutter with a Firebase Firestore database. Book data is retreived from the OpenLibrary API.',
       },
     ],
   },
